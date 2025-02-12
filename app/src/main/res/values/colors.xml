@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f5f5f5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#4cb050</color>
+    <color name="purple_700">#4cb050</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="app_bg_color">#075f56</color>
+    <color name="card_bg_color">#231b4b</color>
+    <color name="grey">#66000000</color>
+    <color name="app_gradiant_start">#f5b729</color>
+    <color name="app_gradiant_center">#ff4166</color>
+    <color name="app_gradiant_end">#682c8f</color>
+
+
+    <color name="text_selected">#FFFFFF</color>
+    <color name="text_unselected">#83AFAA</color>
+    <color name="wa_colorPrimary">#075f56</color>
+    <color name="tab_bg">#075E55</color>
+
+    <color name="wa_card_bg">#f3f2f4</color>
+    <color name="card_white">#F1F1F1</color>
+    <color name="seekbar_bg">#cbfbf6</color>
+    <color name="white_alpha">#66075E55</color>
+    <color name="header_icon_color">#ffffff</color>
+    <color name="card_bg_color_alpha_info">#F20e0826</color>
+    <color name="wts_card_color">#231B4C</color>
+    <color name="wa_colorPrimaryDark">#0e0826</color>
+    <color name="unselected_use">#36286d</color>
+    <color name="download_bg">#231b4b</color>
+    <color name="gray_color">#F8F8FF</color>
+    <color name="new_transparant">#4Dffffff</color>
+    <color name="dialog_background">#CC000000</color>
+    <color name="color_off_white">#B3ffffff</color>
+
+    <color name="error_text_color">#bdbdc3</color>
+    <color name="white_trans">#66ffffff</color>
+    <color name="transparant">#00FFFFFF</color>
+
+    <color name="w_color">#4cb050</color>
+    <color name="gnt_red">#FF0000</color>
+
+    <color name="light_grey">#EBEBEF</color>
+    <color name="dark_grey">#BAC2CD</color>
+    <color name="dark_black">#303B35</color>
+    <color name="brown">#AC934A</color>
+    <color name="app">#45A496</color>
+    <color name="lightbrown">#CAC0A8</color>
+
+</resources>

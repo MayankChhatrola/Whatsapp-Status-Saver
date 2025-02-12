@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_wa_image"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <Button
+        android:id="@+id/buttonOpenWhatsApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@color/colorPrimaryDark"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_whatsapp_icon_new"
+        android:drawablePadding="@dimen/_10sdp"
+        android:paddingLeft="@dimen/_20sdp"
+        android:paddingTop="@dimen/_6sdp"
+        android:paddingRight="@dimen/_20sdp"
+        android:paddingBottom="@dimen/_6sdp"
+        android:text="@string/open_whatsapp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:typeface="monospace"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/_4sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:orientation="vertical">
+
+<!--        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+<!--            android:id="@+id/mAdView"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            ads:adSize="BANNER"-->
+<!--            ads:adUnitId="ca-app-pub-6699687107380271/2126437250">-->
+
+<!--        </com.google.android.gms.ads.AdView>-->
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/waSwipeRefreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foregroundTint="@color/wa_colorPrimary">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lltLoader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ProgressBar
+            android:id="@+id/pgBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:theme="@style/WhiteAccent"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/size_10dip"
+            android:text="@string/please_wait"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_14sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lltNoVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/_4sdp"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="@dimen/_72sdp"
+            android:layout_height="@dimen/_72sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_whatsapp_icon_new" />
+
+        <TextView
+            android:id="@+id/txtWhoops"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="@string/open_whatsapp"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

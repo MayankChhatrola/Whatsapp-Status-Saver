@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llMain"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvThemeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:maxWidth="@dimen/_200sdp"
+        android:paddingLeft="@dimen/_14sdp"
+        android:paddingRight="@dimen/_14sdp"
+        android:singleLine="true"
+        android:text="abc"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size_14sp" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:gravity="center">
+
+    <!--    <LinearLayout
+            android:id="@+id/indictor"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_5sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:gravity="center"
+            android:background="@drawable/whtsapp_tab_white_cat_selector"
+            android:orientation="vertical" />-->
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Whtsapp Status Saver</string>
+    <string name="whtsapp_help_details1">View Status on Whtsapp that you would like to save on your mobile!</string>
+    <string name="whtsapp_help_details2">You can Save,Share and Repost Your recently viewed status</string>
+    <string name="whtsapp_help_details3">Long press on items for multiple Selection</string>
+    <string name="whtsapp_help_details4">You can Share,Repost and Delete Saved Status</string>
+
+    <string name="whtsapp_help1">1.Open Whatsapp</string>
+    <string name="whtsapp_help2">2.Open Status Download</string>
+    <string name="whtsapp_help3">3.Multiple Selection!</string>
+    <string name="whtsapp_help4">4.Preview Download Status</string>
+
+    <string name="selected">Selected :</string>
+    <string name="help">Help</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="share_to_msg">\"Share to \"</string>
+    <string name="can_not_share_more_msg">Can\'t share more than 30 items!</string>
+    <string name="no_video_available">No Video Available!</string>
+    <string name="delete_success">Successfully Deleted</string>
+    <string name="refresh_success">Refresh Successfully!!</string>
+    <string name="share_text">Get free Whatsup Status Downloader : Whats\'app Status Downloader</string>
+    <string name="share_img">Share Image</string>
+
+    <string name="status_downloader">WhatsApp Status</string>
+    <string name="select_all">Select All</string>
+    <string name="save">Downloads</string>
+    <string name="deleteMessage_vdo">Are you sure to delete this status ?</string>
+    <string name="deleteMessage_audio">Are you sure to delete this audio ?</string>
+    <string name="deleteMessage_vdo_fb">Are you sure to delete this video ?</string>
+    <string name="deleteMessage_sucess">Delete Sucessfully </string>
+    <string name="no_status">No status available yet!</string>
+    <string name="no_status_save">No saved status available yet!</string>
+    <string name="deleteAll">Are you sure to delete all saved status ?</string>
+    <string name="open_whatsapp">Go to WhatsApp</string>
+    <string name="whatsapp_na">WhatsApp not installed</string>
+    <string name="img_down_msg">Image downloaded</string>
+    <string name="vdo_down_msg">Video downloaded</string>
+    <string name="share_btn">Share</string>
+    <string name="post_btn">Repost</string>
+    <string name="del_btn">Delete</string>
+    <string name="down_btn">Download</string>
+    <string name="image_preview">Image Preview</string>
+    <string name="video_preview">Video Preview</string>
+    <string name="whatsapp_status_downloader">WhatsApp Status Downloader</string>
+    <string name="help_one_sub_text">Now you can Save, Share and Repost WhatsApp status of your friends</string>
+    <string name="open_whatsapp_txt">Open WhatsApp Status</string>
+    <string name="help_two_sub_text">View Status that you would like to save on your mobile</string>
+    <string name="open_status_downloader">Open Status Downloader</string>
+    <string name="help_three_sub_text">This shows all your viewed status</string>
+    <string name="open_downloaded_status">Status Preview</string>
+    <string name="help_four_sub_text">Here, You can Share, Repost &amp; Download status</string>
+    <string name="multiple_selection">Multiple Selection</string>
+    <string name="help_five_sub_text">Long press on status for multiple selection</string>
+    <string name="app_intro_skip_button">SKIP</string>
+    <string name="app_intro_done_button">DONE</string>
+    <string name="image_delete">Image Deleted</string>
+    <string name="vdo_delete">Video Deleted</string>
+    <string name="wa_not_found_msg">WhatsApp Not Found on this Phone</string>
+    <string name="perm_granted">Permission Granted</string>
+    <string name="no_status_avail_to_save">No Status available to Save...</string>
+    <string name="btn_ok">OK</string>
+    <string name="one_string_format">one string format</string>
+    <string name="deletetitle">Delete ?</string>
+    <string name="deleteMessage">Are you sure you want to delete</string>
+    <string name="delete_btn">Delete</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="permission_necessary">Permission necessary</string>
+    <string name="external_storage_and_camera_permission_are_necessary">Allow Required Permission</string>
+    <string name="download_success">Download SuccessFully</string>
+    <string name="downloading_theme_please_wait">Downloading theme please wait</string>
+    <string name="please_wait">Please wait</string>
+    <string name="cancel">Cancel</string>
+    <string name="Video">Videos</string>
+    <string name="Photo">Photos</string>
+    <string name="Save">Saved</string>
+    <string name="downlod_success">Successfully Download</string>
+    <string name="status_image">image</string>
+
+    <string name="reflx">\?</string>
+    <string name="permissiontitle">Need Storage Permission</string>
+    <string name="permissionmsg">This app need storage permissions to work properly</string>
+    <string name="title_choose_whatsapp_folder">Please choose WhatsApp Folder</string>
+    <string name="message_gbwass_folder_path">"Please navigate Your Storage -> GBWhatsApp -> Media -> .Statuses. And click
+ Allow Access to \".Statuses\".
+ Remember activate the option to show hidden files in order to see the .Statuses folder."</string>
+    <string name="message_pslite_folder_path">"Please navigate Your Storage -> parallel_lite -> 0 -> WhatsApp -> Media -> .Statuses. And click
+ Allow Access to \".Statuses\".
+ Remember activate the option to show hidden files in order to see the .Statuses folder."</string>
+    <string name="message_pso_folder_path">"Please navigate Your Storage -> parallel_intl -> 0 -> WhatsApp -> Media -> .Statuses. And click
+ Allow Access to \".Statuses\".
+ Remember activate the option to show hidden files in order to see the .Statuses folder."</string>
+    <string name="message_wbuss_folder_path">"Please navigate Your Storage -> WhatsApp Business -> Media -> .Statuses. And click
+ Allow Access to \".Statuses\".
+ Remember activate the option to show hidden files in order to see the .Statuses folder."</string>
+    <string name="message_whatsapp_folder_path">"Remember activate the option to show hidden files in order to see the .Statuses folder.
+        \n Please navigate Your Storage \n\n  WhatsApp -> Media -> .Statuses. And click
+ Allow Access to \".Statuses\".
+        \n If you can't see the folder. Try this path.
+Android -> media -> com.whatsapp -> WhatsApp -> Media -> .Statuses
+ "</string>
+    <string name="message_wplus_folder_path">"Please navigate Your Storage -> WhatsApp Plus -> Media -> .Statuses. And click
+ Allow Access to \".Statuses\".
+ Remember activate the option to show hidden files in order to see the .Statuses folder."</string>
+    <string name="button_open">Open</string>
+    <string name="incorrect_folder">Incorrect folder</string>
+    <string name="share">Share</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="alert_title">EXIT</string>
+    <string name="alert_message">Are you sure you want to exit?</string>
+    <string name="alert_yes">Yes</string>
+    <string name="alert_no">No</string>
+
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+
+</resources>

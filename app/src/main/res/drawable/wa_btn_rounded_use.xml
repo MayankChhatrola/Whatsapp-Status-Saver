@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/card_bg_color" />
+
+                    <size android:width="26dp" android:height="26dp" />
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="#4DFFFFFF" />
+                    <size android:width="26dp" android:height="26dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+
+        <shape android:shape="oval">
+            <solid android:color="@color/card_bg_color" />
+            <size android:width="26dp" android:height="26dp" />
+        </shape>
+
+    </item>
+
+
+</selector>

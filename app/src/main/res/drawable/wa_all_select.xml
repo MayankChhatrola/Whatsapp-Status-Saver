@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/wa_circle"
+        android:gravity="fill">
+    </item>
+
+    <item
+        android:bottom="5dp"
+        android:drawable="@drawable/wa_ic_select_all_done_white"
+        android:gravity="center"
+        android:left="5dp"
+        android:right="5dp"
+        android:top="5dp" />
+
+
+</layer-list>

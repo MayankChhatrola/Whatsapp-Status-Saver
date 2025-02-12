@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/_6sdp"
+    android:layout_marginTop="@dimen/_6sdp"
+    android:layout_marginRight="@dimen/_6sdp"
+    android:layout_marginBottom="@dimen/_8sdp"
+    android:background="@color/white"
+    app:cardBackgroundColor="@color/colorPrimary"
+    app:cardCornerRadius="@dimen/_8sdp"
+    app:cardElevation="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/cardViewRoot"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_250sdp"
+                app:cardElevation="@dimen/size_0dip"
+                app:cardBackgroundColor="@color/colorPrimary">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.example.whtsappstatussaver.view.RoundedImageView
+                        android:id="@+id/roundedImgSelector"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/image_selection_selector"
+                        android:clickable="true" />
+
+                    <com.example.whtsappstatussaver.view.RoundedImageView
+                        android:id="@+id/roundedImgThumb"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/image_selection_selector"
+                        android:clickable="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/logo"
+                        app:siRadius="@dimen/_2sdp" />
+
+                    <com.example.whtsappstatussaver.view.RoundedImageView
+                        android:id="@+id/roundedImgOverlay"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/_4sdp"
+                        android:background="@drawable/image_selection_overlay"
+                        android:clickable="true"
+                        android:scaleType="centerCrop"
+                        android:visibility="gone"
+                        app:siRadius="@dimen/_2sdp" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/llPlay"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    tools:ignore="MissingConstraints">
+
+                    <ImageView
+                        android:id="@+id/imgPlay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/status_image"
+                        android:src="@drawable/ic_play"
+                        android:visibility="visible" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <LinearLayout
+                android:id="@+id/liner_selection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/imgcheck"
+                    android:layout_width="@dimen/_36sdp"
+                    android:layout_height="@dimen/_36sdp"
+                    android:padding="@dimen/_6sdp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

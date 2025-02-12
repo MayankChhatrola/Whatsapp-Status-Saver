@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/wa_ic_select_all_white"
+        android:gravity="fill" />
+
+    <item
+        android:bottom="@dimen/_24sdp"
+        android:drawable="@drawable/wa_ic_select_all_done_action_dark_white"
+        android:gravity="center"
+        android:left="@dimen/_24sdp"
+        android:right="@dimen/_24sdp"
+        android:top="@dimen/_24sdp" />
+
+
+</layer-list>

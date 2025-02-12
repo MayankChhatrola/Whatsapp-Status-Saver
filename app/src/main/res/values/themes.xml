@@ -1,0 +1,112 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WhtsappStatusSaver" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="android:statusBarColor">@color/app</item>
+
+    </style>
+
+    <style name="Theme.WhtsappStatusSaver" parent="Base.Theme.WhtsappStatusSaver" />
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/rounded_dialog</item>
+    </style>
+
+    <style name="AppThemeWhatsapp" parent="Base.Theme.WhtsappStatusSaver">
+
+        <item name="android:actionModeBackground">@color/app_bg_color</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="actionModeCloseDrawable">@drawable/ic_baseline_close_24</item>
+        <item name="colorControlHighlight">@color/white_trans</item>
+        <item name="android:colorEdgeEffect" tools:targetApi="lollipop">@color/white</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/LStyled.ActionMode</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+        <item name="android:statusBarColor" >@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorAccent</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+        <!--        <item name="android:windowActionModeOverlay">true</item>-->
+
+    </style>
+
+    <style name="AlertDialogTheme" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">#f00</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">#00f</item>
+    </style>
+
+    <style name="LStyled.ActionMode" parent="@style/Widget.AppCompat.ActionMode">
+        <item name="background">@color/app_bg_color</item>
+    </style>
+
+    <style name="AppThemes" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/wa_colorPrimaryDark</item>
+        <item name="colorAccent">@color/wa_colorPrimary</item>
+        <item name="android:textColorPrimary">@color/app_bg_color</item>
+        <item name="android:windowTitleStyle">@style/TitleDialogTextStyle</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="buttonBarButtonStyle">@style/MyButtonStyle</item>
+        <!--<item name="android:textAppearanceSmall">@style/MyTextAppearance</item>-->
+        <!--<item name="android:textAppearanceMedium">@style/MyTextAppearance</item>-->
+        <!--<item name="android:textAppearanceLarge">@style/MyTextAppearance</item>-->
+    </style>
+
+    <style name="TitleDialogTextStyle" parent="@style/Base.DialogWindowTitle.AppCompat">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+
+    <style name="MyButtonStyle" parent="Base.Widget.AppCompat.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/app</item>
+    </style>
+
+    <style name="DialogTheme_dark" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/dialog_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+
+    </style>
+
+    <style name="assentWhite">
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="WhiteAccent">
+        <item name="colorAccent">@color/wa_colorPrimary</item> <!-- Whatever color you want-->
+    </style>
+
+    <style name="VideoView">
+        <item name="colorAccent">@color/wa_colorPrimary</item> <!-- Whatever color you want-->
+    </style>
+
+    <style name="Base.Theme.WhtsappStatusSaver.AdAttribution">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:text">Ad</item>
+        <item name="android:background">#FFCC66</item>
+    </style>
+</resources>
